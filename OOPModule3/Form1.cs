@@ -75,5 +75,17 @@ namespace OOPModule3
                 strings = s.Split('\n');
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Lab7 form3 = new Lab7();
+            form3.ShowDialog();
+        }
     }
 }
